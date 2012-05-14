@@ -1,4 +1,19 @@
+// ==UserScript==
+// @name           BigShark
+// @namespace      .
+// @description    Bigger buttons for Grooveshark.com
+// @include        http://*.grooveshark.com/*
+// @include        https://*.grooveshark.com/*
+// @version        1.0
+// ==/UserScript==
 
+/**
+ * BigShark - Bigger buttons for Grooveshark.com
+ * @require jQuery
+ * @date 5/8/12
+ * @author Ivan Lazarevic
+ * @link http://workshop.rs
+ */
 var bigShark = function($, window, undefined) {
 
 	var bs = {};
